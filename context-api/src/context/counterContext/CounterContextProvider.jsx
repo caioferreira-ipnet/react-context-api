@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { CounterContext } from "../context/CounterContext.jsx";
+import { CounterContext } from "./CounterContext.jsx";
 //Provider
 export const CounterContextProvider = ({ children }) => {
   const [counter, setCounter] = useState(5);
